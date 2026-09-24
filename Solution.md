@@ -423,8 +423,8 @@ unzip awscliv2.zip
 sudo ./aws/install
 
 cd /home/ubuntu/
-TOKEN=$(aws --region=us-east-1 ssm get-parameter --name /ondia/capstone/token --with-decryption --query 'Parameter.Value' --output text)
-git clone https://$TOKEN@github.com/paul-clarusway/aws-capstone.git
+TOKEN=$(aws --region=us-east-1 ssm get-parameter --name /halit/capstone/token --with-decryption --query 'Parameter.Value' --output text)
+git clone https://$TOKEN@github.com/HalitCam/AWS-Capstone-Project.git
 cd /home/ubuntu/aws-capstone
 
 
