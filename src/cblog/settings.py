@@ -102,7 +102,7 @@ DATABASES = {
         'NAME': 'ondia',
         'USER': db_username,
         'PASSWORD': db_password,
-        'HOST': 'capstone-db-instance.ccdk0q246eof.us-east-1.rds.amazonaws.com',
+        'HOST': 'database-instance.ccdk0q246eof.us-east-1.rds.amazonaws.com',
         'PORT': '3306',
     }
 }
